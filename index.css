@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(210, 212, 212);
+}
+.first-section{
+    background-color: white;
+    padding:5rem;
+    height: 15rem;
+    margin:0rem 0.5rem 0rem 0.5rem;
+    position:relative;
+
+}
+.first-section>h2{
+    font-size:30px;
+    position: absolute;
+    top:5rem;
+    left:20rem;
+    font-family: 'Roboto', sans-serif;
+}
+.p-tag1{
+    position: absolute;
+    top:10rem;
+    left:20rem;
+    font-size: 1.2rem;
+}
+.p-tag1>p{
+    line-height: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.p-tag1>p>strong{
+    color:rgb(55, 208, 136);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* This is the second div section  */
+
+.second-section{
+    background-color: rgb(125, 127, 128);
+    height: 25rem;
+    position:relative;
+    /* width:100%; */
+    display:grid;
+    place-items: center;
+    top:0.5rem;
+    margin:-0.5rem 0.5rem;
+    border-top:0.5rem solid rgb(195, 193, 193);
+}
+.inner-second{
+   background-color: white;
+   padding:0.5rem;
+   word-wrap: break-word;
+   height:15rem;
+   width: 50rem;
+   border-bottom: 0.5rem solid rgb(103, 110, 103);
+}
+.paragraph{
+    padding:1rem;
+    padding-top: 3.5rem;
+}
+.paragraph>p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wealth>h3{
+    height: 1rem;
+    width:18rem;
+    background-color: rgb(242, 168, 32);
+    position:absolute;
+    top: 3.9rem;
+    text-align: center;
+    padding:1rem;
+    left:18rem;
+    text-indent: -1.5rem;
+    border-bottom: 0.4rem solid rgb(158, 117, 4);
+    font-family: 'Roboto', sans-serif;
+    
+    
+} 
