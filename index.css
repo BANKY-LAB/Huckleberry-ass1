@@ -1,11 +1,16 @@
-
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(210, 212, 212);
 }
 .first-section{
     background-color: white;
     padding:5rem;
-    height: 15rem;
+    height: 50vh;
+    width:100vw;
     margin:0rem 0.5rem 0rem 0.5rem;
     position:relative;
 
@@ -14,13 +19,13 @@ body{
     font-size:30px;
     position: absolute;
     top:5rem;
-    left:20rem;
+    left:23rem;
     font-family: 'Roboto', sans-serif;
 }
 .p-tag1{
     position: absolute;
     top:10rem;
-    left:20rem;
+    left:23rem;
     font-size: 1.2rem;
 }
 .p-tag1>p{
@@ -36,9 +41,9 @@ body{
 
 .second-section{
     background-color: rgb(125, 127, 128);
-    height: 25rem;
+    height: 50vh;
+    width:100vw auto;
     position:relative;
-    /* width:100%; */
     display:grid;
     place-items: center;
     top:0.5rem;
@@ -49,32 +54,119 @@ body{
    background-color: white;
    padding:0.5rem;
    word-wrap: break-word;
-   height:15rem;
-   width: 50rem;
+   height:18rem;
    border-bottom: 0.5rem solid rgb(103, 110, 103);
 }
-.paragraph{
-    padding:1rem;
-    padding-top: 3.5rem;
-}
-.paragraph>p{
+.inner-second p{
     font-size: 1.1rem;
     line-height: 1.6rem;
+    padding-bottom: 1rem;
     font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    padding-left: 0.8rem;
+    
 }
 
 .wealth>h3{
     height: 1rem;
-    width:18rem;
+    width:20rem;
     background-color: rgb(242, 168, 32);
     position:absolute;
-    top: 3.9rem;
+    top: 4.3rem;
     text-align: center;
-    padding:1rem;
-    left:18rem;
-    text-indent: -1.5rem;
+    padding:1.5rem;
+    left:21rem;
+    text-indent: -1.4rem;
     border-bottom: 0.4rem solid rgb(158, 117, 4);
-    font-family: 'Roboto', sans-serif;
-    
-    
+    font-family: 'Roboto', sans-serif;     
 } 
+
+@media only screen and (max-width:390px){
+    .first-section{
+        padding:2rem;
+        height:40vh;
+        width:100vw;
+    }
+    .first-section>h2{
+        font-size:2rem;
+        left:2rem;
+    }
+    .p-tag1{
+        top:10rem;
+        left:2rem;
+        padding-right:1rem;
+    }
+    .p-tag1 p{
+        padding-bottom: 1rem;
+    }
+    .second-section{
+        height: 60vh;
+        width:100vw;
+    }
+    .wealth>h3{
+        top: 4.3rem;
+        left:0rem;
+        text-indent: -2.4rem;
+        width:20rem;
+    }
+    .inner-second{
+        height:26rem;
+        border-bottom: 0.5rem solid rgb(103, 110, 103);
+     }
+     .inner-second p{
+        padding-left:1rem;
+    padding-right: 1rem;
+     word-wrap: break-word;
+
+    }
+    .wrapper{
+       padding-top: 6rem;
+    }
+}
+
+@media only screen and (min-width:820px){
+    .first-section{
+        padding:2rem;
+        height:40vh;
+        width:100vw;
+    }
+    .p-tag1{
+        top:15rem;
+        left:3rem;
+        padding-right:1rem;
+    }
+    .first-section>h2{
+        top:8rem;
+        left:3rem;
+        font-size:3rem;
+    }
+    .p-tag1 p{
+        padding-bottom: 1rem;
+    }
+    .inner-second{
+        height:26rem;
+     }
+     .inner-second p{
+        padding-left:2rem;
+    padding-right:2rem;
+    font-size: 1.3rem;
+    }
+    .wrapper{
+        padding-top: 10rem;
+     }
+     .wealth>h3{
+        top: 6.3rem;
+        left:0rem;
+        text-indent: -1.3rem;
+        width:30rem;
+        padding:2rem 2rem 4rem 1rem ;
+        width:33rem;
+        font-size: 2rem;
+        border-bottom: 0.6rem solid rgb(158, 117, 4)
+  
+     }
+     .second-section{
+        height: 50vh;
+        width:100vw;
+    }
+}
